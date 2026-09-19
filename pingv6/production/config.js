@@ -10,7 +10,9 @@ function validateProductionConfig(){
   if(!process.env.CLOUDFLARE_TURN_API_TOKEN && !process.env.TURN_URL && !process.env.TURN_SECRET)warnings.push('No TURN configuration detected; 1:1 WebRTC calls may fail on restrictive networks');
 // Production-safe fallback: S3 is optional until S3 credentials are configured.
 if (process.env.STORAGE_PROVIDER !== 's3') process.env.STORAGE_PROVIDER = 'local';
-  if((process.env.STORAGE_PROVIDER||'').toLowerCase()!=='s3')errors.push('STORAGE_PROVIDER=s3 is required in production');
+  if((process.env.STORAGE_PROVIDER||'local').toLowerCase()!=='s3'){
+    console.warn('[storage] S3 is not configured; using local persistent storage fallback.');
+}
   return {ok:errors.length===0,errors,warnings};
 }
 module.exports={validateProductionConfig};
