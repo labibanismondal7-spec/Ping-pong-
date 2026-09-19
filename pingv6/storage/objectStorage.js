@@ -6,11 +6,17 @@ try { ({ S3Client, PutObjectCommand, DeleteObjectCommand } = require('@aws-sdk/c
 
 function provider() { return process.env.STORAGE_PROVIDER || (process.env.S3_BUCKET ? 's3' : 'local'); }
 function assertProductionStorage() {
-  if (process.env.NODE_ENV === 'production' && provider() !== 's3') {
-    throw new Error('Production storage requires STORAGE_PROVIDER=s3 and an S3-compatible bucket');
+    const current = provider();
+
+    if (current === 'local') {
+      console.warn('[storage] Production local storage fallback active; S3 is not configured.');
+      return;
+    }
+
+    if (current === 's3' && (!S3Client || !process.env.S3_BUCKET)) {
+      throw new Error('S3 storage selected but @aws-sdk/client-s3 or S3_BUCKET is missing');
+    }
   }
-  if (provider() === 's3' && (!S3Client || !process.env.S3_BUCKET)) throw new Error('S3 storage selected but @aws-sdk/client-s3 or S3_BUCKET is missing');
-}
 function client() {
   return new S3Client({
     region: process.env.S3_REGION || 'auto',
