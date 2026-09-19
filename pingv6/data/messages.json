@@ -1,0 +1,22 @@
+{
+  "37778055_69871048": [
+    {
+      "id": "74a89732-7c26-4203-a02a-f553b47ea6cb",
+      "from": "37778055",
+      "to": "69871048",
+      "message": "Hi",
+      "time": "2026-09-19T10:54:06.606Z"
+    }
+  ],
+  "22206182_pingpong-system": [
+    {
+      "id": "78745300-b23d-4046-8423-1c5d3db9d22a",
+      "from": "pingpong-system",
+      "to": "22206182",
+      "message": "5,000 Beans converted to $0.02 Withdraw Balance.",
+      "time": "2026-09-19T12:06:38.401Z",
+      "type": "system_notification",
+      "system": true
+    }
+  ]
+}

@@ -1,0 +1,1682 @@
+[
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 100000,
+    "date": "2026-09-19T11:09:25.572Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816165571"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 200000,
+    "date": "2026-09-19T11:09:40.314Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816180314"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 300000,
+    "date": "2026-09-19T11:09:54.426Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816194426"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 77700000,
+    "wealth": 78000000,
+    "date": "2026-09-19T11:10:15.963Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816215963"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 78100000,
+    "date": "2026-09-19T11:10:47.996Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816247996"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100001,
+    "date": "2026-09-19T11:11:13.086Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816273086"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100002,
+    "date": "2026-09-19T11:11:13.733Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816273733"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100003,
+    "date": "2026-09-19T11:11:15.454Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816275454"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100004,
+    "date": "2026-09-19T11:11:16.058Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816276058"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100005,
+    "date": "2026-09-19T11:11:16.417Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816276417"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100006,
+    "date": "2026-09-19T11:11:16.776Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816276776"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100007,
+    "date": "2026-09-19T11:11:17.289Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816277289"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100008,
+    "date": "2026-09-19T11:11:19.638Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816279638"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100009,
+    "date": "2026-09-19T11:11:20.377Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816280377"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100010,
+    "date": "2026-09-19T11:11:21.141Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816281141"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100011,
+    "date": "2026-09-19T11:11:21.596Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816281596"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100012,
+    "date": "2026-09-19T11:11:22.055Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816282055"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100013,
+    "date": "2026-09-19T11:11:22.530Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816282530"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100014,
+    "date": "2026-09-19T11:11:22.940Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816282940"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100015,
+    "date": "2026-09-19T11:11:23.588Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816283588"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100016,
+    "date": "2026-09-19T11:11:23.986Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816283985"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100017,
+    "date": "2026-09-19T11:11:24.550Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816284550"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100018,
+    "date": "2026-09-19T11:11:24.955Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816284955"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100019,
+    "date": "2026-09-19T11:11:25.253Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816285252"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100020,
+    "date": "2026-09-19T11:11:25.560Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816285560"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100021,
+    "date": "2026-09-19T11:11:25.888Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816285888"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100022,
+    "date": "2026-09-19T11:11:26.455Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816286455"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100023,
+    "date": "2026-09-19T11:11:27.116Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816287116"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100024,
+    "date": "2026-09-19T11:11:27.552Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816287552"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100025,
+    "date": "2026-09-19T11:11:28.075Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816288075"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100026,
+    "date": "2026-09-19T11:11:28.629Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816288629"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100027,
+    "date": "2026-09-19T11:11:28.937Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816288937"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100028,
+    "date": "2026-09-19T11:11:29.250Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816289250"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100029,
+    "date": "2026-09-19T11:11:30.254Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816290254"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100030,
+    "date": "2026-09-19T11:11:31.745Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816291745"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100031,
+    "date": "2026-09-19T11:11:32.457Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816292457"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100032,
+    "date": "2026-09-19T11:11:32.773Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816292773"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100033,
+    "date": "2026-09-19T11:11:33.588Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816293588"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100034,
+    "date": "2026-09-19T11:11:35.201Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816295201"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100035,
+    "date": "2026-09-19T11:11:35.712Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816295712"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100036,
+    "date": "2026-09-19T11:11:36.486Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816296486"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100037,
+    "date": "2026-09-19T11:11:37.153Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816297153"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100038,
+    "date": "2026-09-19T11:11:37.743Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816297743"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100039,
+    "date": "2026-09-19T11:11:38.459Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816298459"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100040,
+    "date": "2026-09-19T11:11:38.773Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816298773"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100041,
+    "date": "2026-09-19T11:11:39.127Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816299127"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100042,
+    "date": "2026-09-19T11:11:40.441Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816300441"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100043,
+    "date": "2026-09-19T11:11:41.084Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816301084"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100044,
+    "date": "2026-09-19T11:11:42.009Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816302009"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100045,
+    "date": "2026-09-19T11:11:42.329Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816302329"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1,
+    "wealth": 78100046,
+    "date": "2026-09-19T11:11:42.668Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816302668"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100123,
+    "date": "2026-09-19T11:11:44.378Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816304378"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100200,
+    "date": "2026-09-19T11:11:44.951Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816304951"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100277,
+    "date": "2026-09-19T11:11:45.995Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816305995"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100354,
+    "date": "2026-09-19T11:11:46.812Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816306812"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100431,
+    "date": "2026-09-19T11:11:47.243Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816307243"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100508,
+    "date": "2026-09-19T11:11:47.741Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816307741"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100585,
+    "date": "2026-09-19T11:11:48.639Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816308639"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100662,
+    "date": "2026-09-19T11:11:49.673Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816309673"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100739,
+    "date": "2026-09-19T11:11:50.237Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816310237"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100816,
+    "date": "2026-09-19T11:11:51.018Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816311018"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100893,
+    "date": "2026-09-19T11:11:51.321Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816311321"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78100970,
+    "date": "2026-09-19T11:11:51.645Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816311645"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101047,
+    "date": "2026-09-19T11:11:55.025Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816315025"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101124,
+    "date": "2026-09-19T11:11:55.654Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816315654"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101201,
+    "date": "2026-09-19T11:11:56.135Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816316135"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101278,
+    "date": "2026-09-19T11:11:56.773Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816316773"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101355,
+    "date": "2026-09-19T11:11:57.092Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816317092"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101432,
+    "date": "2026-09-19T11:11:57.471Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816317471"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101509,
+    "date": "2026-09-19T11:11:59.006Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816319006"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101586,
+    "date": "2026-09-19T11:11:59.381Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816319381"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101663,
+    "date": "2026-09-19T11:11:59.836Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816319836"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101740,
+    "date": "2026-09-19T11:12:00.442Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816320442"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 77,
+    "wealth": 78101817,
+    "date": "2026-09-19T11:12:00.785Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789816320785"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 7700000,
+    "wealth": 85801817,
+    "date": "2026-09-19T11:12:03.923Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816323923"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 100000,
+    "date": "2026-09-19T11:12:33.556Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816353556"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 200000,
+    "date": "2026-09-19T11:12:57.190Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816377190"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 700000,
+    "wealth": 900000,
+    "date": "2026-09-19T11:13:21.054Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816401054"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 1000000,
+    "date": "2026-09-19T11:17:46.709Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816666709"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 7700000,
+    "wealth": 8700000,
+    "date": "2026-09-19T11:18:06.598Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816686598"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 77700000,
+    "wealth": 163501817,
+    "date": "2026-09-19T11:18:22.820Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816702820"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 700000,
+    "wealth": 164201817,
+    "date": "2026-09-19T11:18:42.576Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816722576"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 164301817,
+    "date": "2026-09-19T11:18:55.128Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789816735128"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 8800000,
+    "date": "2026-09-19T11:25:14.378Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789817114378"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8800999,
+    "date": "2026-09-19T11:40:03.316Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818003316"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8801998,
+    "date": "2026-09-19T11:40:05.983Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818005983"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8802997,
+    "date": "2026-09-19T11:40:07.906Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818007906"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8803996,
+    "date": "2026-09-19T11:40:08.504Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818008504"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8804995,
+    "date": "2026-09-19T11:40:09.268Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818009268"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8805994,
+    "date": "2026-09-19T11:40:09.662Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818009662"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8806993,
+    "date": "2026-09-19T11:40:10.077Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818010077"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8807992,
+    "date": "2026-09-19T11:40:10.471Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818010471"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164302816,
+    "date": "2026-09-19T11:40:10.489Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818010489"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8808991,
+    "date": "2026-09-19T11:40:10.843Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818010843"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164303815,
+    "date": "2026-09-19T11:40:10.907Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818010907"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164304814,
+    "date": "2026-09-19T11:40:11.309Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818011309"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8809990,
+    "date": "2026-09-19T11:40:11.538Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818011538"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164305813,
+    "date": "2026-09-19T11:40:11.639Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818011639"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8810989,
+    "date": "2026-09-19T11:40:11.843Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818011843"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8811988,
+    "date": "2026-09-19T11:40:12.157Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818012157"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 8812987,
+    "date": "2026-09-19T11:40:12.579Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818012579"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164306812,
+    "date": "2026-09-19T11:40:13.720Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818013720"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164307811,
+    "date": "2026-09-19T11:40:14.340Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818014340"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164308810,
+    "date": "2026-09-19T11:40:16.412Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818016412"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8813987,
+    "date": "2026-09-19T11:40:17.444Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818017444"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8814987,
+    "date": "2026-09-19T11:40:17.860Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818017860"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8815987,
+    "date": "2026-09-19T11:40:18.252Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818018252"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164309809,
+    "date": "2026-09-19T11:40:18.713Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818018713"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8816987,
+    "date": "2026-09-19T11:40:18.770Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818018770"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164310808,
+    "date": "2026-09-19T11:40:19.346Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818019346"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8817987,
+    "date": "2026-09-19T11:40:19.416Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818019416"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8818987,
+    "date": "2026-09-19T11:40:19.742Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818019742"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164311807,
+    "date": "2026-09-19T11:40:19.811Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818019811"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8819987,
+    "date": "2026-09-19T11:40:20.076Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818020076"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164312806,
+    "date": "2026-09-19T11:40:20.192Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818020192"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164313805,
+    "date": "2026-09-19T11:40:20.602Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818020602"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8820987,
+    "date": "2026-09-19T11:40:20.687Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818020687"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8821987,
+    "date": "2026-09-19T11:40:20.999Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818020999"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164314804,
+    "date": "2026-09-19T11:40:21.021Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818021021"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164315803,
+    "date": "2026-09-19T11:40:21.456Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818021456"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 999,
+    "wealth": 164316802,
+    "date": "2026-09-19T11:40:21.888Z",
+    "referenceId": "gift:gift_mu8ayc7j_650eb008:1789818021888"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8822987,
+    "date": "2026-09-19T11:40:23.338Z",
+    "referenceId": "gift:gift_mu8azi8o_782ef059:1789818023338"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164317802,
+    "date": "2026-09-19T11:40:23.865Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818023865"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164318802,
+    "date": "2026-09-19T11:40:24.284Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818024284"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8823987,
+    "date": "2026-09-19T11:40:24.466Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818024466"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8824987,
+    "date": "2026-09-19T11:40:24.967Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818024967"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164319802,
+    "date": "2026-09-19T11:40:25.169Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818025169"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8825987,
+    "date": "2026-09-19T11:40:25.261Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818025261"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8826987,
+    "date": "2026-09-19T11:40:25.551Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818025551"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164320802,
+    "date": "2026-09-19T11:40:25.636Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818025636"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8827987,
+    "date": "2026-09-19T11:40:25.897Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818025897"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164321802,
+    "date": "2026-09-19T11:40:26.079Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818026079"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164322802,
+    "date": "2026-09-19T11:40:26.416Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818026416"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8828987,
+    "date": "2026-09-19T11:40:26.540Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818026540"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8829987,
+    "date": "2026-09-19T11:40:26.839Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818026839"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164323802,
+    "date": "2026-09-19T11:40:28.518Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818028518"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8830586,
+    "date": "2026-09-19T11:40:29.877Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818029877"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164324802,
+    "date": "2026-09-19T11:40:29.921Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818029921"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8831185,
+    "date": "2026-09-19T11:40:30.272Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818030272"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8831784,
+    "date": "2026-09-19T11:40:30.590Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818030590"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164325802,
+    "date": "2026-09-19T11:40:30.616Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818030616"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164326802,
+    "date": "2026-09-19T11:40:32.100Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818032100"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164327802,
+    "date": "2026-09-19T11:40:32.515Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818032515"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8832383,
+    "date": "2026-09-19T11:40:32.576Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818032576"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8832982,
+    "date": "2026-09-19T11:40:32.987Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818032987"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164328802,
+    "date": "2026-09-19T11:40:33.117Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818033117"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8833581,
+    "date": "2026-09-19T11:40:33.315Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818033315"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164329802,
+    "date": "2026-09-19T11:40:33.620Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818033620"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 599,
+    "wealth": 8834180,
+    "date": "2026-09-19T11:40:33.916Z",
+    "referenceId": "gift:gift_mu8b219s_9ae4c063:1789818033916"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164330802,
+    "date": "2026-09-19T11:40:34.012Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818034012"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164331802,
+    "date": "2026-09-19T11:40:34.629Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818034629"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164332802,
+    "date": "2026-09-19T11:40:36.337Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818036337"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164333802,
+    "date": "2026-09-19T11:40:36.796Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818036796"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8835180,
+    "date": "2026-09-19T11:40:37.147Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818037147"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164334802,
+    "date": "2026-09-19T11:40:37.227Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818037227"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8836180,
+    "date": "2026-09-19T11:40:37.523Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818037523"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8837180,
+    "date": "2026-09-19T11:40:37.920Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818037920"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164335802,
+    "date": "2026-09-19T11:40:37.937Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818037937"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164336802,
+    "date": "2026-09-19T11:40:38.447Z",
+    "referenceId": "gift:gift_mu8ayvzl_96f4f032:1789818038447"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8838180,
+    "date": "2026-09-19T11:40:38.778Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818038778"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8839180,
+    "date": "2026-09-19T11:40:39.289Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818039289"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8840180,
+    "date": "2026-09-19T11:40:40.067Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818040067"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8841180,
+    "date": "2026-09-19T11:40:42.120Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818042120"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8842180,
+    "date": "2026-09-19T11:40:42.561Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818042561"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 899,
+    "wealth": 164337701,
+    "date": "2026-09-19T11:40:42.770Z",
+    "referenceId": "gift:gift_mu8b3dwy_0ebb9ade:1789818042770"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8843180,
+    "date": "2026-09-19T11:40:42.952Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818042952"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 899,
+    "wealth": 164338600,
+    "date": "2026-09-19T11:40:43.220Z",
+    "referenceId": "gift:gift_mu8b3dwy_0ebb9ade:1789818043220"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 899,
+    "wealth": 164339499,
+    "date": "2026-09-19T11:40:43.687Z",
+    "referenceId": "gift:gift_mu8b3dwy_0ebb9ade:1789818043687"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8844180,
+    "date": "2026-09-19T11:40:46.329Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818046329"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8845180,
+    "date": "2026-09-19T11:40:46.780Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818046780"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8846180,
+    "date": "2026-09-19T11:40:47.160Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818047160"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 8847180,
+    "date": "2026-09-19T11:40:47.711Z",
+    "referenceId": "gift:gift_mu8b3xkd_8b8fe6ec:1789818047711"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164340298,
+    "date": "2026-09-19T11:43:08.916Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818188916"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164341097,
+    "date": "2026-09-19T11:43:09.456Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818189456"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164341896,
+    "date": "2026-09-19T11:43:09.788Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818189788"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164342695,
+    "date": "2026-09-19T11:43:10.307Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818190307"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164343494,
+    "date": "2026-09-19T11:43:10.675Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818190675"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164344293,
+    "date": "2026-09-19T11:43:11.008Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818191008"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164345092,
+    "date": "2026-09-19T11:43:11.328Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818191328"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164345891,
+    "date": "2026-09-19T11:43:11.758Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818191758"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164346690,
+    "date": "2026-09-19T11:43:12.098Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818192098"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 799,
+    "wealth": 164347489,
+    "date": "2026-09-19T11:43:12.635Z",
+    "referenceId": "gift:gift_mu8b12u9_e6ea4e7d:1789818192635"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164348489,
+    "date": "2026-09-19T11:43:15.733Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818195733"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164349489,
+    "date": "2026-09-19T11:43:16.176Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818196176"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164350489,
+    "date": "2026-09-19T11:43:16.771Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818196771"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 1000,
+    "wealth": 164351489,
+    "date": "2026-09-19T11:43:17.220Z",
+    "referenceId": "gift:gift_mu8b00jz_adbe44cf:1789818197220"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 164451489,
+    "date": "2026-09-19T11:43:27.624Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789818207624"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 19999,
+    "wealth": 8867179,
+    "date": "2026-09-19T11:43:55.256Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818235256"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 39998,
+    "wealth": 164491487,
+    "date": "2026-09-19T11:44:01.756Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818241756"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 39998,
+    "wealth": 164531485,
+    "date": "2026-09-19T11:44:03.236Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818243236"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 39998,
+    "wealth": 164571483,
+    "date": "2026-09-19T11:44:03.561Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818243561"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 39998,
+    "wealth": 164611481,
+    "date": "2026-09-19T11:44:04.547Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818244547"
+  },
+  {
+    "uid": "37778055",
+    "type": "gift_sent",
+    "diamond": 39998,
+    "wealth": 164651479,
+    "date": "2026-09-19T11:44:04.899Z",
+    "referenceId": "gift:gift_mu8bj9bh_3862cd5e:1789818244899"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 8967179,
+    "date": "2026-09-19T11:44:28.786Z",
+    "referenceId": "videogift:vgift_mu89xg54_ce68d35a:1789818268786"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967181,
+    "date": "2026-09-19T11:45:27.718Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818327718"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967183,
+    "date": "2026-09-19T11:45:28.614Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818328614"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967185,
+    "date": "2026-09-19T11:45:31.123Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818331123"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967187,
+    "date": "2026-09-19T11:45:31.829Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818331829"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967189,
+    "date": "2026-09-19T11:45:32.218Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818332218"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967191,
+    "date": "2026-09-19T11:45:32.730Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818332730"
+  },
+  {
+    "uid": "69871048",
+    "type": "gift_sent",
+    "diamond": 2,
+    "wealth": 8967193,
+    "date": "2026-09-19T11:45:33.128Z",
+    "referenceId": "gift:gift_mu89sisj_cf52cdc8:1789818333128"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 164851479,
+    "date": "2026-09-19T11:55:36.765Z",
+    "referenceId": "videogift:vgift_mu8byndm_3e41b352:1789818936765"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 100000,
+    "wealth": 9067193,
+    "date": "2026-09-19T11:56:07.934Z",
+    "referenceId": "videogift:vgift_mu8byndm_3e41b352:1789818967934"
+  },
+  {
+    "uid": "69871048",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 9267193,
+    "date": "2026-09-19T11:58:53.090Z",
+    "referenceId": "videogift:vgift_mu8c33wr_e39a86a4:1789819133090"
+  },
+  {
+    "uid": "37778055",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 165051479,
+    "date": "2026-09-19T12:01:11.843Z",
+    "referenceId": "videogift:vgift_mu8c33wr_e39a86a4:1789819271843"
+  },
+  {
+    "uid": "22206182",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 200000,
+    "date": "2026-09-19T12:01:34.295Z",
+    "referenceId": "videogift:vgift_mu8c33wr_e39a86a4:1789819294295"
+  },
+  {
+    "uid": "22206182",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 400000,
+    "date": "2026-09-19T12:01:47.671Z",
+    "referenceId": "videogift:vgift_mu8byndm_3e41b352:1789819307671"
+  },
+  {
+    "uid": "22206182",
+    "type": "video_gift_sent",
+    "diamond": 200000,
+    "wealth": 600000,
+    "date": "2026-09-19T12:02:18.261Z",
+    "referenceId": "videogift:vgift_mu8byndm_3e41b352:1789819338260"
+  },
+  {
+    "uid": "22206182",
+    "type": "gift_sent",
+    "diamond": 2000,
+    "wealth": 602000,
+    "date": "2026-09-19T12:03:20.790Z",
+    "referenceId": "gift:gift_mu8b5p6d_082574b2:1789819400790"
+  },
+  {
+    "uid": "22206182",
+    "type": "gift_sent",
+    "diamond": 2000,
+    "wealth": 604000,
+    "date": "2026-09-19T12:03:22.018Z",
+    "referenceId": "gift:gift_mu8b5p6d_082574b2:1789819402018"
+  }
+]

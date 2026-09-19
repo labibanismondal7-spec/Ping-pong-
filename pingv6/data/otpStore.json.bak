@@ -1,0 +1,10 @@
+{
+  "+917478051749": {
+    "hash": "53458065e45f834d3e0258f2a79b1675ef0098b63f7690ea3ab2e242e56a4a7e",
+    "salt": "caeefb0192659795f5c9fd407ac5721c",
+    "expiresAt": 1789818431527,
+    "attempts": 0,
+    "createdAt": 1789818131527,
+    "requestId": "b08b965b8711f1de9ed368d7"
+  }
+}

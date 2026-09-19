@@ -1,0 +1,234 @@
+{
+  "+918101221193": {
+    "userId": "37778055",
+    "name": "Rohan",
+    "mobile": "+918101221193",
+    "photo": "/photos/4f96c41a-0fa4-461a-9510-3401aaa66479.gif",
+    "followers": 0,
+    "following": 0,
+    "followersList": [],
+    "followingList": [],
+    "visitors": 12,
+    "diamonds": 51750338,
+    "level": 7,
+    "idLevel": 7,
+    "lifetimeGiftSent": 165051479,
+    "vipLevel": 5,
+    "banned": false,
+    "verified": false,
+    "agencyId": null,
+    "isHost": true,
+    "activeFrame": {
+      "frameId": "welcome-new-7d",
+      "name": "NEW Welcome Frame",
+      "imageUrl": "/images/default-new-frame-7d.png",
+      "expiresAt": "2026-09-26T10:36:37.139Z"
+    },
+    "frameInventory": [
+      {
+        "frameId": "welcome-new-7d",
+        "assignedAt": "2026-09-19T10:36:37.139Z",
+        "expiresAt": "2026-09-26T10:36:37.139Z",
+        "permanent": false,
+        "assignedBy": "system-welcome-7d"
+      }
+    ],
+    "welcomeFrameState": {
+      "assignedAt": "2026-09-19T10:36:37.139Z",
+      "expiresAt": "2026-09-26T10:36:37.139Z",
+      "removedAt": null
+    },
+    "customTag": null,
+    "nameEffect": null,
+    "lastDailyRewardAt": null,
+    "lastWeeklyRewardAt": null,
+    "recentRooms": [
+      {
+        "roomId": "1d090eb41f",
+        "roomNumber": "37778055",
+        "roomName": "Offical",
+        "hostId": "37778055",
+        "hostName": "Rohan",
+        "lastVisitAt": "2026-09-19T11:37:40.480Z"
+      }
+    ],
+    "groups": [],
+    "countryId": "IN",
+    "profile_completed": true,
+    "gender": "Male",
+    "country": "IN",
+    "language": "en",
+    "svipWealth": 165051479,
+    "svipLevel": 8,
+    "svipMembershipType": "permanent",
+    "svipExpireAt": null,
+    "svipExpiryWarned": false,
+    "assignedTagLevel": null,
+    "vehicleInventory": [],
+    "beans": 9469186
+  },
+  "+919832389581": {
+    "userId": "69871048",
+    "name": "RK ROCK",
+    "mobile": "+919832389581",
+    "photo": "/photos/1f0356b3-8957-4cc0-a6c1-bee8dc5282e2.gif",
+    "followers": 0,
+    "following": 0,
+    "followersList": [],
+    "followingList": [],
+    "visitors": 24,
+    "diamonds": 1832807,
+    "level": 5,
+    "idLevel": 5,
+    "lifetimeGiftSent": 9267193,
+    "vipLevel": 5,
+    "banned": false,
+    "verified": false,
+    "agencyId": null,
+    "isHost": false,
+    "activeFrame": {
+      "frameId": "svip6-premium",
+      "name": "SVIP6 Premium",
+      "imageUrl": "/images/premium-haco/frames/svip6-frame.webp",
+      "expiresAt": null
+    },
+    "frameInventory": [
+      {
+        "frameId": "welcome-new-7d",
+        "assignedAt": "2026-09-19T10:39:25.459Z",
+        "expiresAt": "2026-09-26T10:39:25.459Z",
+        "permanent": false,
+        "assignedBy": "system-welcome-7d"
+      },
+      {
+        "frameId": "abf166b8-8b2c-42ef-8100-f08ca17232d1",
+        "assignedAt": "2026-09-19T10:43:07.927Z",
+        "expiresAt": null,
+        "permanent": true,
+        "assignedBy": "admin"
+      },
+      {
+        "frameId": "svip6-premium",
+        "assignedAt": "2026-09-19T10:43:19.183Z",
+        "expiresAt": null,
+        "permanent": true,
+        "assignedBy": "admin"
+      }
+    ],
+    "welcomeFrameState": {
+      "assignedAt": "2026-09-19T10:39:25.459Z",
+      "expiresAt": "2026-09-26T10:39:25.459Z",
+      "removedAt": null
+    },
+    "customTag": null,
+    "nameEffect": null,
+    "lastDailyRewardAt": null,
+    "lastWeeklyRewardAt": null,
+    "recentRooms": [
+      {
+        "roomId": "1d090eb41f",
+        "roomNumber": "37778055",
+        "roomName": "Offical",
+        "hostId": "37778055",
+        "hostName": "Rohan",
+        "lastVisitAt": "2026-09-19T11:58:43.160Z"
+      }
+    ],
+    "groups": [],
+    "countryId": "IN",
+    "profile_completed": true,
+    "gender": "Male",
+    "country": "IN",
+    "language": "en",
+    "svipWealth": 9267193,
+    "svipLevel": 5,
+    "svipMembershipType": "permanent",
+    "svipExpireAt": null,
+    "svipExpiryWarned": false,
+    "assignedTagLevel": 6,
+    "vehicleInventory": [],
+    "activeBadges": [
+      "official_tag",
+      "seller_tag",
+      "agency_tag",
+      "blue_diamond_v"
+    ],
+    "beans": 79363484
+  },
+  "+917478051749": {
+    "userId": "22206182",
+    "name": "Ankit",
+    "mobile": "+917478051749",
+    "photo": "",
+    "followers": 0,
+    "following": 0,
+    "followersList": [],
+    "followingList": [],
+    "visitors": 6,
+    "diamonds": 79396000,
+    "level": 3,
+    "idLevel": 3,
+    "lifetimeGiftSent": 604000,
+    "vipLevel": 0,
+    "banned": false,
+    "verified": false,
+    "agencyId": null,
+    "isHost": true,
+    "activeFrame": {
+      "frameId": "welcome-new-7d",
+      "name": "NEW Welcome Frame",
+      "imageUrl": "/images/default-new-frame-7d.png",
+      "expiresAt": "2026-09-26T11:42:27.369Z"
+    },
+    "frameInventory": [
+      {
+        "frameId": "welcome-new-7d",
+        "assignedAt": "2026-09-19T11:42:27.370Z",
+        "expiresAt": "2026-09-26T11:42:27.369Z",
+        "permanent": false,
+        "assignedBy": "system-welcome-7d"
+      }
+    ],
+    "welcomeFrameState": {
+      "assignedAt": "2026-09-19T11:42:27.370Z",
+      "expiresAt": "2026-09-26T11:42:27.369Z",
+      "removedAt": null
+    },
+    "customTag": null,
+    "nameEffect": null,
+    "lastDailyRewardAt": null,
+    "lastWeeklyRewardAt": null,
+    "recentRooms": [
+      {
+        "roomId": "1d090eb41f",
+        "roomNumber": "37778055",
+        "roomName": "Offical",
+        "hostId": "37778055",
+        "hostName": "Rohan",
+        "lastVisitAt": "2026-09-19T11:58:04.356Z"
+      },
+      {
+        "roomId": "55f69cbe50",
+        "roomNumber": "22206182",
+        "roomName": "Ankit",
+        "hostId": "22206182",
+        "hostName": "Ankit",
+        "lastVisitAt": "2026-09-19T11:50:25.727Z"
+      }
+    ],
+    "groups": [],
+    "countryId": "IN",
+    "profile_completed": true,
+    "gender": "Male",
+    "country": "IN",
+    "language": "bn",
+    "svipWealth": 604000,
+    "svipLevel": 1,
+    "svipMembershipType": "permanent",
+    "svipExpireAt": null,
+    "svipExpiryWarned": false,
+    "assignedTagLevel": null,
+    "vehicleInventory": [],
+    "beans": 495002
+  }
+}

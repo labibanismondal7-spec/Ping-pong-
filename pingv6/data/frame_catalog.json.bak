@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gold-classic",
+    "name": "Gold Classic",
+    "vipOnly": false,
+    "imageUrl": null
+  },
+  {
+    "id": "royal-flame",
+    "name": "Royal Flame",
+    "vipOnly": true,
+    "imageUrl": null
+  },
+  {
+    "id": "welcome-new-7d",
+    "name": "NEW Welcome Frame",
+    "vipOnly": false,
+    "imageUrl": "/images/default-new-frame-7d.png",
+    "system": true,
+    "durationDays": 7
+  },
+  {
+    "id": "svip1-premium",
+    "name": "SVIP1 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip1-frame.webp"
+  },
+  {
+    "id": "svip2-premium",
+    "name": "SVIP2 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip2-frame.webp"
+  },
+  {
+    "id": "svip3-premium",
+    "name": "SVIP3 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip3-frame.webp"
+  },
+  {
+    "id": "svip4-premium",
+    "name": "SVIP4 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip4-frame.webp"
+  },
+  {
+    "id": "svip5-premium",
+    "name": "SVIP5 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip5-frame.webp"
+  },
+  {
+    "id": "svip6-premium",
+    "name": "SVIP6 Premium",
+    "vipOnly": true,
+    "imageUrl": "/images/premium-haco/frames/svip6-frame.webp"
+  }
+]

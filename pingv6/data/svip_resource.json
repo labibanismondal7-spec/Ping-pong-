@@ -1,0 +1,45 @@
+{
+  "SVIP1": {
+    "tag": "/images/premium-haco/tags/svip1-tag.webp",
+    "badge": "svip1-badge",
+    "bubble": "svip1-bubble",
+    "frame": "/images/premium-haco/frames/svip1-frame.webp"
+  },
+  "SVIP2": {
+    "tag": "/images/premium-haco/tags/svip2-tag.webp",
+    "bubble": "svip2-bubble",
+    "frame": "/images/premium-haco/frames/svip2-frame.webp"
+  },
+  "SVIP3": {
+    "tag": "/images/premium-haco/tags/svip3-tag.webp",
+    "bubble": "svip3-bubble",
+    "frame": "/images/premium-haco/frames/svip3-frame.webp",
+    "nicknameColor": "#E5B84B"
+  },
+  "SVIP4": {
+    "tag": "/images/premium-haco/tags/svip4-tag.webp",
+    "roomCard": "svip4-room-card",
+    "frame": "/images/premium-haco/frames/svip4-frame.webp",
+    "nicknameColor": "#E5B84B"
+  },
+  "SVIP5": {
+    "tag": "/images/premium-haco/tags/svip5-tag.webp",
+    "entryEffect": "/images/premium-haco/effects/vip_upgrade_notice_lv5_bg.mp4",
+    "frame": "/images/premium-haco/frames/svip5-frame.webp"
+  },
+  "SVIP6": {
+    "tag": "/images/premium-haco/tags/svip6-tag.webp",
+    "entryEffect": "/images/premium-haco/effects/vip_upgrade_notice_lv6_bg.mp4",
+    "frame": "/images/premium-haco/frames/svip6-frame.webp",
+    "nicknameColor": "#FF7A45"
+  },
+  "SVIP7": {
+    "animatedRoomTheme": "svip7-theme",
+    "entryEffect": "svip7-entry"
+  },
+  "SVIP8": {
+    "animatedRoomTheme": "svip8-theme",
+    "entryEffect": "svip8-entry",
+    "exclusiveGift": "svip8-exclusive-gift"
+  }
+}

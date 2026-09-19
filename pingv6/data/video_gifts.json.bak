@@ -1,0 +1,22 @@
+[
+  {
+    "id": "vgift_mu89xg54_ce68d35a",
+    "name": "GIFT",
+    "price": 100000,
+    "duration": 8,
+    "videoUrl": "/video-gifts/1789815476056-1000033025.mp4",
+    "thumbnail": "/video-gifts-thumbs/1789815485593-1000032416.jpg",
+    "enabled": true,
+    "createdAt": "2026-09-19T10:58:06.713Z"
+  },
+  {
+    "id": "vgift_mu8byndm_3e41b352",
+    "name": "GIFT1",
+    "price": 100000,
+    "duration": 8,
+    "videoUrl": "/video-gifts/1789818870560-1000031246.mp4",
+    "thumbnail": "/video-gifts-thumbs/1789818875668-1000036222.gif",
+    "enabled": true,
+    "createdAt": "2026-09-19T11:55:01.982Z"
+  }
+]

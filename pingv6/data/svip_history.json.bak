@@ -1,0 +1,37 @@
+[
+  {
+    "uid": "37778055",
+    "fromLevel": 0,
+    "toLevel": 1,
+    "date": "2026-09-19T11:09:54.426Z",
+    "reason": "level_up"
+  },
+  {
+    "uid": "37778055",
+    "fromLevel": 1,
+    "toLevel": 8,
+    "date": "2026-09-19T11:10:15.963Z",
+    "reason": "level_up"
+  },
+  {
+    "uid": "69871048",
+    "fromLevel": 0,
+    "toLevel": 1,
+    "date": "2026-09-19T11:13:21.054Z",
+    "reason": "level_up"
+  },
+  {
+    "uid": "69871048",
+    "fromLevel": 1,
+    "toLevel": 4,
+    "date": "2026-09-19T11:18:06.598Z",
+    "reason": "level_up"
+  },
+  {
+    "uid": "69871048",
+    "fromLevel": 4,
+    "toLevel": 5,
+    "date": "2026-09-19T11:56:07.934Z",
+    "reason": "level_up"
+  }
+]

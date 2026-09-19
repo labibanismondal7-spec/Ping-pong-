@@ -1,0 +1,25 @@
+{
+  "69871048": {
+    "userId": "69871048",
+    "enabled": true,
+    "balanceDiamonds": 0,
+    "bonusPercent": 1,
+    "packages": [
+      {
+        "id": "pkg_default_300_100k",
+        "priceINR": 300,
+        "diamonds": 100000,
+        "label": "₹300 • 100K Diamonds • Custom amount supported",
+        "active": true
+      }
+    ],
+    "totalRechargeCount": 0,
+    "totalDiamondsDistributed": 0,
+    "totalBonusDiamonds": 0,
+    "createdAt": "2026-09-19T10:58:41.883Z",
+    "createdBy": {
+      "id": "owner-56ca2943840d",
+      "username": "admin"
+    }
+  }
+}

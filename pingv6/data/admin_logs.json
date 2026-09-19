@@ -1,0 +1,430 @@
+[
+  {
+    "id": "4cb88a11fa50202b",
+    "timestamp": "2026-09-19T10:42:04.604Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "login",
+    "module": "auth",
+    "targetType": "adminAccount",
+    "targetId": "owner-56ca2943840d",
+    "before": null,
+    "after": null,
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "0684492d136d0b61",
+    "timestamp": "2026-09-19T10:42:36.090Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "frame-upload",
+    "module": "frames",
+    "targetType": "frame",
+    "targetId": "abf166b8-8b2c-42ef-8100-f08ca17232d1",
+    "before": null,
+    "after": {
+      "name": "Box",
+      "imageUrl": "/frames/62b2bce1-b5e7-4c34-a8f1-327aa396d38d.png"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "f464587a77b8c8c0",
+    "timestamp": "2026-09-19T10:43:07.936Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "frame-send",
+    "module": "frames",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "frameId": "abf166b8-8b2c-42ef-8100-f08ca17232d1",
+      "expiresAt": null,
+      "permanent": true
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "5571916a02a6536f",
+    "timestamp": "2026-09-19T10:43:19.188Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "frame-send",
+    "module": "frames",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "frameId": "svip6-premium",
+      "expiresAt": null,
+      "permanent": true
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "41c3546e4c2881d6",
+    "timestamp": "2026-09-19T10:45:20.371Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "room-ui-config-update",
+    "module": "rooms",
+    "targetType": "roomUi",
+    "targetId": "global",
+    "before": {
+      "seatSize": 56,
+      "frameScale": 1.4
+    },
+    "after": {
+      "seatSize": 58,
+      "frameScale": 1.4
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "c13b130b7a479ffc",
+    "timestamp": "2026-09-19T10:47:26.831Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "room-ui-config-update",
+    "module": "rooms",
+    "targetType": "roomUi",
+    "targetId": "global",
+    "before": {
+      "seatSize": 58,
+      "frameScale": 1.4
+    },
+    "after": {
+      "seatSize": 52,
+      "frameScale": 1.4
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "d80f01933ca2358c",
+    "timestamp": "2026-09-19T10:48:16.281Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "room-ui-config-update",
+    "module": "rooms",
+    "targetType": "roomUi",
+    "targetId": "global",
+    "before": {
+      "seatSize": 52,
+      "frameScale": 1.4
+    },
+    "after": {
+      "seatSize": 60,
+      "frameScale": 1.4
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "ead9371735b1d165",
+    "timestamp": "2026-09-19T10:50:40.659Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "badge-send",
+    "module": "badges",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "badge_id": "official_tag"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "e6dcb13a7c8883ed",
+    "timestamp": "2026-09-19T10:50:46.343Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "badge-send",
+    "module": "badges",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "badge_id": "seller_tag"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "d2f76c4de7e51084",
+    "timestamp": "2026-09-19T10:50:52.754Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "badge-send",
+    "module": "badges",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "badge_id": "agency_tag"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "9e44b94ba4339fee",
+    "timestamp": "2026-09-19T10:50:56.339Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "badge-send",
+    "module": "badges",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "badge_id": "blue_diamond_v"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "186c55592b53f694",
+    "timestamp": "2026-09-19T10:56:45.194Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "svip-tag-assign",
+    "module": "svip-tags",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "level": "6"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "94f39c0ce1fec7da",
+    "timestamp": "2026-09-19T10:58:41.887Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "diamond-center-create",
+    "module": "diamond-center",
+    "targetType": "user",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "userId": "69871048",
+      "userName": "RK ROCK",
+      "avatar": "/photos/1f0356b3-8957-4cc0-a6c1-bee8dc5282e2.gif",
+      "country": "IN",
+      "enabled": true,
+      "balanceDiamonds": 0,
+      "bonusPercent": 1,
+      "packages": [
+        {
+          "id": "pkg_default_300_100k",
+          "priceINR": 300,
+          "diamonds": 100000,
+          "label": "₹300 • 100K Diamonds • Custom amount supported"
+        }
+      ],
+      "totalRechargeCount": 0,
+      "totalDiamondsDistributed": 0,
+      "totalBonusDiamonds": 0,
+      "createdAt": "2026-09-19T10:58:41.883Z"
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "117b47fd19c83e75",
+    "timestamp": "2026-09-19T10:58:57.628Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "diamond-seller-add",
+    "module": "diamond-seller",
+    "targetType": "diamond-seller",
+    "targetId": "69871048",
+    "before": null,
+    "after": {
+      "userId": "69871048",
+      "whatsappNumber": "9832389581",
+      "order": 1,
+      "addedAt": "2026-09-19T10:58:57.624Z",
+      "addedBy": {
+        "id": "owner-56ca2943840d",
+        "username": "admin"
+      }
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "5fda38644c1d13fd",
+    "timestamp": "2026-09-19T11:09:07.112Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "login",
+    "module": "auth",
+    "targetType": "adminAccount",
+    "targetId": "owner-56ca2943840d",
+    "before": null,
+    "after": null,
+    "result": "success",
+    "failureReason": null,
+    "meta": null
+  },
+  {
+    "id": "f4eef61fddcef369",
+    "timestamp": "2026-09-19T11:09:18.484Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "user-diamond-edit",
+    "module": "users",
+    "targetType": "user",
+    "targetId": "37778055",
+    "before": {
+      "diamonds": 0
+    },
+    "after": {
+      "diamonds": 90000000
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": {
+      "diff": 90000000
+    }
+  },
+  {
+    "id": "0fd40ed84b07b2cc",
+    "timestamp": "2026-09-19T11:16:47.491Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "user-diamond-edit",
+    "module": "users",
+    "targetType": "user",
+    "targetId": "37778055",
+    "before": {
+      "diamonds": 2183
+    },
+    "after": {
+      "diamonds": 90000000
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": {
+      "diff": 89997817
+    }
+  },
+  {
+    "id": "38bac468739680f8",
+    "timestamp": "2026-09-19T11:59:09.896Z",
+    "adminId": "owner-56ca2943840d",
+    "adminUsername": "admin",
+    "role": "owner",
+    "countryId": null,
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "action": "user-diamond-edit",
+    "module": "users",
+    "targetType": "user",
+    "targetId": "22206182",
+    "before": {
+      "diamonds": 0
+    },
+    "after": {
+      "diamonds": 80000000
+    },
+    "result": "success",
+    "failureReason": null,
+    "meta": {
+      "diff": 80000000
+    }
+  }
+]

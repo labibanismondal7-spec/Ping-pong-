@@ -1,0 +1,23 @@
+{
+  "1d090eb41f": {
+    "roomId": "1d090eb41f",
+    "roomNumber": "37778055",
+    "roomName": "Offical",
+    "hostId": "37778055",
+    "hostName": "Rohan",
+    "official": false,
+    "aiCustomerService": false,
+    "aiAgentId": null,
+    "adminIds": [
+      "69871048"
+    ],
+    "lockedSeats": [],
+    "background": "/backgrounds/1789818438003-24938.gif",
+    "logo": "/logos/1789815957177-850.jpg",
+    "agencyId": null,
+    "gameEnabled": true,
+    "roomLocked": false,
+    "roomPasswordHash": null,
+    "countryId": "IN"
+  }
+}

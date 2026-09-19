@@ -1,0 +1,38 @@
+[
+  {
+    "id": "btx_1789815040644_3m249f",
+    "user_id": "69871048",
+    "pingpong_id": "69871048",
+    "badge_id": "official_tag",
+    "action": "send",
+    "sent_by": {
+      "id": "owner-56ca2943840d",
+      "username": "admin"
+    },
+    "created_at": "2026-09-19T10:50:40.645Z"
+  },
+  {
+    "id": "btx_1789815046337_xjnokf",
+    "user_id": "69871048",
+    "pingpong_id": "69871048",
+    "badge_id": "seller_tag",
+    "action": "send",
+    "sent_by": {
+      "id": "owner-56ca2943840d",
+      "username": "admin"
+    },
+    "created_at": "2026-09-19T10:50:46.337Z"
+  },
+  {
+    "id": "btx_1789815052751_itie2h",
+    "user_id": "69871048",
+    "pingpong_id": "69871048",
+    "badge_id": "agency_tag",
+    "action": "send",
+    "sent_by": {
+      "id": "owner-56ca2943840d",
+      "username": "admin"
+    },
+    "created_at": "2026-09-19T10:50:52.751Z"
+  }
+]
