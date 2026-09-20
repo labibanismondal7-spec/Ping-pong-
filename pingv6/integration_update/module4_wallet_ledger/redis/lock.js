@@ -92,7 +92,7 @@ async function extend(client, key, token, ttlMs = 5000) {
 // throw), return fn()'s result. Retries acquire briefly since room
 // operations are short-lived and a short wait beats failing the
 // caller's whole request over a few-millisecond overlap.
-async function withLock(client, key, { ttlMs = 5000, retries = 10, retryDelayMs = 50 } = {}, fn) {
+async function withLock(client, key, { ttlMs = 5000, retries = 1, retryDelayMs = 20 } = {}, fn) {
     let token = null;
     for (let i = 0; i <= retries; i++) {
         token = await acquire(client, key, ttlMs);
