@@ -12,12 +12,40 @@ async function start({users=null,clampDiamondBalance,clampBeansBalance}={}){
   const config=validateProductionConfig();
   if(!config.ok) throw new Error(config.errors.join('; '));
   config.warnings.forEach(w=>console.warn('[production-config] '+w));
-  if(process.env.NODE_ENV==='production'&&!db.enabled()) throw new Error('PostgreSQL driver/configuration is unavailable');
-  if(db.enabled()){
-    await runMigrations();
-    await wallet.init({redisPool:redis.getConnection?.(),clampDiamondBalance,clampBeansBalance});
-    if(users){await wallet.bootstrapUsers(users);await wallet.hydrateUsers(users);}
+  if(process.env.NODE_ENV==='production'&&!db.enabled()) {
+    console.warn('[production-core] PostgreSQL driver/configuration unavailable — continuing in degraded mode; wallet authority remains disabled.');
   }
+
+  if(db.enabled()){
+    let databaseReady = false;
+
+    try {
+      await runMigrations();
+      databaseReady = true;
+      console.log('[production-core] PostgreSQL migrations ready.');
+    } catch (err) {
+      console.error('[production-core] PostgreSQL unavailable during boot — continuing without database authority:', err && (err.stack || err.message || err));
+      console.error('[production-core] Wallet authority remains disabled until PostgreSQL becomes available.');
+    }
+
+    if(databaseReady){
+      try {
+        await wallet.init({
+          redisPool:redis.getConnection?.(),
+          clampDiamondBalance,
+          clampBeansBalance
+        });
+        if(users){
+          await wallet.bootstrapUsers(users);
+          await wallet.hydrateUsers(users);
+        }
+        console.log('[production-core] Wallet authority initialized.');
+      } catch (err) {
+        console.error('[production-core] Wallet authority initialization failed — continuing without wallet authority:', err && (err.stack || err.message || err));
+      }
+    }
+  }
+
   if(process.env.NODE_ENV==='production')storage.assertProductionStorage();
   state.started=true;state.ready=true;return state;
 }
