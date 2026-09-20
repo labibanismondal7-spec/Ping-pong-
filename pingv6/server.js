@@ -6995,6 +6995,13 @@ function fwStartRound(roomId) {
     console.log(`🎡 [Fruit Wheel] round #${g.roundId} started in room ${roomId}`);
 }
 function fwResolveBetting(roomId) {
+  const __fwGuard = fruitWheelRooms[roomId];
+  // PRODUCTION ONCE-ONLY SETTLEMENT GUARD.
+  // This function is synchronous, so setting the flag before any payout
+  // work prevents duplicate timer/event invocations for the same round.
+  if (!__fwGuard || __fwGuard.settled || __fwGuard.settling) return;
+  __fwGuard.settling = true;
+
     const g = fruitWheelRooms[roomId];
     if (!g) return;
     // The ONLY place a Fruit Wheel result is generated. The outcome is a
@@ -7004,6 +7011,9 @@ function fwResolveBetting(roomId) {
     g.phase = "spinning";
     g.phaseEndsAt = Date.now() + FW_SPINNING_MS;
     fwBroadcastRoundState(roomId);
+
+  __fwGuard.settled = true;
+  __fwGuard.settling = false;
 }
 async function fwResolveSpin(roomId) {
     const g = fruitWheelRooms[roomId];
@@ -7933,10 +7943,10 @@ io.on("connection", (socket) => {
         const senderSnapshot = { diamonds: senderFound.user.diamonds, level: senderFound.user.level };
         try {
             if (productionWallet.enabled() && targets.length) {
-                const wr = await productionWallet.crossBatch(senderFound.user.userId, "diamonds", "beans", targets.map(t => ({userId:t.userId, amount:gift.price * qty})), totalCost, `Video gift ${gift.name}`, `video-gift:${roomId}`, makeGiftTransactionId(requestId, senderFound.user.userId, targets.map(t=>t.userId).join(","), gift.id, qty));
+                const wr = await productionWallet.crossBatch(senderFound.user.userId, "diamonds", "beans", targets.map(t => ({userId:t.user.userId, amount:gift.price * qty})), totalCost, `Video gift ${gift.name}`, `video-gift:${roomId}`, makeGiftTransactionId(requestId, senderFound.user.userId, targets.map(t=>t.user.userId).join(","), gift.id, qty));
                 if (!wr || wr.debit?.status !== "completed") throw new Error("Wallet transaction rejected");
                 senderFound.user.diamonds = Number(wr.debit.balanceAfter);
-                for (const c of (wr.credits || [])) { const receiver=targets.find(t=>t.userId===c.userId); if(receiver) receiver.user.beans=Number(c.balanceAfter); }
+                for (const c of (wr.credits || [])) { const receiver=targets.find(t=>t.user.userId===c.userId); if(receiver) receiver.user.beans=Number(c.balanceAfter); }
             } else if (productionWallet.enabled()) {
                 const receiver=findUserByUserId(room.hostId);
                 if(!receiver) throw new Error("Room host not found");

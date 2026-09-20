@@ -408,19 +408,53 @@ function navKeyFor(viewId) {
 let authToken = null;
 let productionRefreshToken = null;
 
+// Prevent multiple simultaneous API calls from consuming the same
+// rotating production refresh token.
+let productionRefreshInFlight = null;
+
 async function tryRefreshProductionSession() {
   if (!productionRefreshToken) return false;
-  try {
-    const res = await fetch(API + "/api/auth/refresh", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({refreshToken:productionRefreshToken,deviceId:localStorage.getItem("pp_device_id")||null}) });
-    const data = await res.json();
-    if (!data.success || !data.accessToken) return false;
-    authToken = data.accessToken;
-    productionRefreshToken = data.refreshToken || productionRefreshToken;
-    saveSession();
-    return true;
-  } catch (_) { return false; }
-}
 
+  if (productionRefreshInFlight) {
+    return productionRefreshInFlight;
+  }
+
+  const refreshTokenAtStart = productionRefreshToken;
+
+  productionRefreshInFlight = (async () => {
+    try {
+      const res = await fetch(API + "/api/auth/refresh", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          refreshToken: refreshTokenAtStart,
+          deviceId: localStorage.getItem("pp_device_id") || null
+        })
+      });
+
+      const data = await res.json();
+
+      if (!data.success || !data.accessToken) {
+        return false;
+      }
+
+      authToken = data.accessToken;
+
+      if (data.refreshToken) {
+        productionRefreshToken = data.refreshToken;
+      }
+
+      saveSession();
+      return true;
+    } catch (_) {
+      return false;
+    } finally {
+      productionRefreshInFlight = null;
+    }
+  })();
+
+  return productionRefreshInFlight;
+}
 async function api(path, method = "GET", body = null, headers = {}, _retried = false) {
   try {
     const authHeaders = authToken ? { "Authorization": "Bearer " + authToken } : {};
@@ -2299,8 +2333,26 @@ function connectSocket() {
   // this only fires if we sent an authToken that's invalid/expired/doesn't
   // match the claimed userId, so the session itself is no longer trustworthy.
   // Same handling as "kicked" with forceLogout.
-  socket.on("identify-rejected", (data) => {
+  socket.on("identify-rejected", async (data) => {
     console.log("[SOCKET] identify-rejected:", data);
+
+    // PRODUCTION SESSION RECOVERY:
+    // An expired access token must not immediately log the user out when
+    // a valid rotating production refresh token still exists.
+    if (productionRefreshToken && !window.__PP_IDENTIFY_REFRESHING__) {
+      window.__PP_IDENTIFY_REFRESHING__ = true;
+      try {
+        const recovered = await tryRefreshProductionSession();
+        if (recovered && me && me.userId && socket) {
+          socket.emit("identify", { userId: me.userId, authToken });
+          return;
+        }
+      } catch (_) {
+      } finally {
+        window.__PP_IDENTIFY_REFRESHING__ = false;
+      }
+    }
+
     clearSession("identify-rejected");
     if (socket) { socket.disconnect(); socket = null; }
     showView("view-login");
