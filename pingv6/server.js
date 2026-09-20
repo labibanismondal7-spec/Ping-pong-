@@ -6995,13 +6995,6 @@ function fwStartRound(roomId) {
     console.log(`🎡 [Fruit Wheel] round #${g.roundId} started in room ${roomId}`);
 }
 function fwResolveBetting(roomId) {
-  const __fwGuard = fruitWheelRooms[roomId];
-  // PRODUCTION ONCE-ONLY SETTLEMENT GUARD.
-  // This function is synchronous, so setting the flag before any payout
-  // work prevents duplicate timer/event invocations for the same round.
-  if (!__fwGuard || __fwGuard.settled || __fwGuard.settling) return;
-  __fwGuard.settling = true;
-
     const g = fruitWheelRooms[roomId];
     if (!g) return;
     // The ONLY place a Fruit Wheel result is generated. The outcome is a
@@ -7011,9 +7004,6 @@ function fwResolveBetting(roomId) {
     g.phase = "spinning";
     g.phaseEndsAt = Date.now() + FW_SPINNING_MS;
     fwBroadcastRoundState(roomId);
-
-  __fwGuard.settled = true;
-  __fwGuard.settling = false;
 }
 async function fwResolveSpin(roomId) {
     const g = fruitWheelRooms[roomId];
@@ -7941,50 +7931,12 @@ io.on("connection", (socket) => {
         // sender's coins/level back on failure instead of leaving coins
         // spent with nothing recorded.
         const senderSnapshot = { diamonds: senderFound.user.diamonds, level: senderFound.user.level };
-        // PRODUCTION FIX: never allow NULL/undefined recipient IDs
-        // to reach module4_wallet_balances.user_id.
-        const walletTargets = targets.filter((t) => {
-            const uid = String(t?.user?.userId ?? "").trim();
-            return !!uid;
-        });
-
-        if (targets.length && walletTargets.length !== targets.length) {
-            console.error("🚨 Video gift rejected: invalid recipient userId detected", {
-                roomId,
-                senderUserId: senderFound.user.userId,
-                requestedTargetCount: targets.length,
-                validTargetCount: walletTargets.length
-            });
-            socket.emit("room-error", {
-                message: "Recipient account is temporarily unavailable. Please try again."
-            });
-            return;
-        }
-
         try {
-            if (productionWallet.enabled() && walletTargets.length) {
-                const wr = await productionWallet.crossBatch(
-                    senderFound.user.userId,
-                    "diamonds",
-                    "beans",
-                    walletTargets.map((t) => ({
-                        userId: String(t.user.userId).trim(),
-                        amount: gift.price * qty
-                    })),
-                    totalCost,
-                    `Video gift ${gift.name}`,
-                    `video-gift:${roomId}`,
-                    makeGiftTransactionId(
-                        requestId,
-                        senderFound.user.userId,
-                        walletTargets.map((t) => String(t.user.userId).trim()).join(","),
-                        gift.id,
-                        qty
-                    )
-                );
+            if (productionWallet.enabled() && targets.length) {
+                const wr = await productionWallet.crossBatch(senderFound.user.userId, "diamonds", "beans", targets.map(t => ({userId:t.userId, amount:gift.price * qty})), totalCost, `Video gift ${gift.name}`, `video-gift:${roomId}`, makeGiftTransactionId(requestId, senderFound.user.userId, targets.map(t=>t.userId).join(","), gift.id, qty));
                 if (!wr || wr.debit?.status !== "completed") throw new Error("Wallet transaction rejected");
                 senderFound.user.diamonds = Number(wr.debit.balanceAfter);
-                for (const c of (wr.credits || [])) { const receiver=walletTargets.find(t=>String(t.user.userId).trim()===String(c.userId).trim()); if(receiver) receiver.user.beans=Number(c.balanceAfter); }
+                for (const c of (wr.credits || [])) { const receiver=targets.find(t=>t.userId===c.userId); if(receiver) receiver.user.beans=Number(c.balanceAfter); }
             } else if (productionWallet.enabled()) {
                 const receiver=findUserByUserId(room.hostId);
                 if(!receiver) throw new Error("Room host not found");

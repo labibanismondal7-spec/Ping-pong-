@@ -503,180 +503,27 @@ async function transferCrossCurrency({ fromUserId, toUserId, fromCurrency, toCur
 }
 
 async function transferCrossCurrencyBatch({ fromUserId, toCurrency, fromCurrency, recipients, totalAmount, txnId, reason, context }) {
-    if (!fromUserId || !fromCurrency || !toCurrency || !Array.isArray(recipients) || !recipients.length)
-      throw new Error('[module4/wallet] batch transfer arguments invalid');
-
-    assertValidAmount(totalAmount);
-    assertValidTxnId(txnId);
-
-    const total = Math.abs(totalAmount);
-    const p = db.getPool();
-    if (!p) throw new Error('[module4/wallet] Postgres not configured');
-
-    // Validate ALL recipients before opening the transaction.
-    const normalizedRecipients = recipients.map((r, index) => ({
-      userId: String(r?.userId ?? '').trim(),
-      amount: Number(r?.amount)
-    }));
-
-    for (let i = 0; i < normalizedRecipients.length; i++) {
-      const r = normalizedRecipients[i];
-
-      if (!r.userId) {
-        throw new Error(`[module4/wallet] invalid recipient userId at index ${i}`);
+    if (!fromUserId || !fromCurrency || !toCurrency || !Array.isArray(recipients) || !recipients.length) throw new Error('[module4/wallet] batch transfer arguments invalid');
+    assertValidAmount(totalAmount); assertValidTxnId(txnId); const total=Math.abs(totalAmount); const p=db.getPool(); if(!p) throw new Error('[module4/wallet] Postgres not configured');
+    const client=await p.connect();
+    try { await client.query('BEGIN');
+      const existing=await client.query(`SELECT txn_id,status,balance_after FROM module4_wallet_ledger WHERE txn_id=$1 OR txn_id LIKE $2`,[txnId,`${txnId}:%`]);
+      if(existing.rowCount){await client.query('COMMIT');return {txnId,replay:true,rows:existing.rows};}
+      await client.query(`INSERT INTO module4_wallet_balances(user_id,currency,balance) VALUES($1,$2,0) ON CONFLICT DO NOTHING`,[fromUserId,fromCurrency]);
+      for(const r of recipients) await client.query(`INSERT INTO module4_wallet_balances(user_id,currency,balance) VALUES($1,$2,0) ON CONFLICT DO NOTHING`,[r.userId,toCurrency]);
+      const d=await client.query(`UPDATE module4_wallet_balances SET balance=balance-$1,updated_at=now() WHERE user_id=$2 AND currency=$3 AND balance-$1>=0 RETURNING balance`,[total,fromUserId,fromCurrency]);
+      if(!d.rowCount){await client.query(`INSERT INTO module4_wallet_ledger(txn_id,user_id,currency,amount,status,reason,context,completed_at) VALUES($1,$2,$3,$4,'rejected',$5,$6,now())`,[`${txnId}:debit`,fromUserId,fromCurrency,-total,reason||null,context||null]);await client.query('COMMIT');return {txnId,replay:false,rejected:true};}
+      const debitBalance=Number(d.rows[0].balance), rows=[];
+      await client.query(`INSERT INTO module4_wallet_ledger(txn_id,user_id,currency,amount,status,reason,context,balance_after,completed_at) VALUES($1,$2,$3,$4,'completed',$5,$6,$7,now())`,[`${txnId}:debit`,fromUserId,fromCurrency,-total,reason||null,context||null,debitBalance]);
+      for(let i=0;i<recipients.length;i++){
+        const r=recipients[i], amount=Math.abs(Number(r.amount)||0); if(!Number.isSafeInteger(amount)||amount<=0) throw new Error('Invalid recipient amount');
+        const u=await client.query(`UPDATE module4_wallet_balances SET balance=balance+$1,updated_at=now() WHERE user_id=$2 AND currency=$3 RETURNING balance`,[amount,r.userId,toCurrency]);
+        const bal=Number(u.rows[0].balance), id=`${txnId}:credit:${i}`;
+        await client.query(`INSERT INTO module4_wallet_ledger(txn_id,user_id,currency,amount,status,reason,context,balance_after,completed_at) VALUES($1,$2,$3,$4,'completed',$5,$6,$7,now())`,[id,r.userId,toCurrency,amount,reason||null,context||null,bal]);
+        rows.push({userId:r.userId,amount,balanceAfter:bal,txnId:id});
       }
-
-      if (!Number.isSafeInteger(r.amount) || r.amount <= 0) {
-        throw new Error(`[module4/wallet] invalid recipient amount at index ${i}`);
-      }
-    }
-
-    const client = await p.connect();
-
-    try {
-      await client.query('BEGIN');
-
-      const existing = await client.query(
-        `SELECT txn_id,status,balance_after
-           FROM module4_wallet_ledger
-          WHERE txn_id=$1 OR txn_id LIKE $2`,
-        [txnId, `${txnId}:%`]
-      );
-
-      if (existing.rowCount) {
-        await client.query('COMMIT');
-        return { txnId, replay: true, rows: existing.rows };
-      }
-
-      await client.query(
-        `INSERT INTO module4_wallet_balances(user_id,currency,balance)
-         VALUES($1,$2,0)
-         ON CONFLICT DO NOTHING`,
-        [fromUserId, fromCurrency]
-      );
-
-      for (const r of normalizedRecipients) {
-        await client.query(
-          `INSERT INTO module4_wallet_balances(user_id,currency,balance)
-           VALUES($1,$2,0)
-           ON CONFLICT DO NOTHING`,
-          [r.userId, toCurrency]
-        );
-      }
-
-      const d = await client.query(
-        `UPDATE module4_wallet_balances
-            SET balance=balance-$1,updated_at=now()
-          WHERE user_id=$2
-            AND currency=$3
-            AND balance-$1>=0
-        RETURNING balance`,
-        [total, fromUserId, fromCurrency]
-      );
-
-      if (!d.rowCount) {
-        await client.query(
-          `INSERT INTO module4_wallet_ledger
-             (txn_id,user_id,currency,amount,status,reason,context,completed_at)
-           VALUES($1,$2,$3,$4,'rejected',$5,$6,now())`,
-          [
-            `${txnId}:debit`,
-            fromUserId,
-            fromCurrency,
-            -total,
-            reason || null,
-            context || null
-          ]
-        );
-
-        await client.query('COMMIT');
-
-        return {
-          txnId,
-          replay: false,
-          rejected: true
-        };
-      }
-
-      const debitBalance = Number(d.rows[0].balance);
-      const rows = [];
-
-      await client.query(
-        `INSERT INTO module4_wallet_ledger
-           (txn_id,user_id,currency,amount,status,reason,context,balance_after,completed_at)
-         VALUES($1,$2,$3,$4,'completed',$5,$6,$7,now())`,
-        [
-          `${txnId}:debit`,
-          fromUserId,
-          fromCurrency,
-          -total,
-          reason || null,
-          context || null,
-          debitBalance
-        ]
-      );
-
-      for (let i = 0; i < normalizedRecipients.length; i++) {
-        const r = normalizedRecipients[i];
-
-        const u = await client.query(
-          `UPDATE module4_wallet_balances
-              SET balance=balance+$1,updated_at=now()
-            WHERE user_id=$2
-              AND currency=$3
-          RETURNING balance`,
-          [r.amount, r.userId, toCurrency]
-        );
-
-        if (!u.rowCount) {
-          throw new Error(
-            `[module4/wallet] recipient balance row missing for user ${r.userId}`
-          );
-        }
-
-        const bal = Number(u.rows[0].balance);
-        const id = `${txnId}:credit:${i}`;
-
-        await client.query(
-          `INSERT INTO module4_wallet_ledger
-             (txn_id,user_id,currency,amount,status,reason,context,balance_after,completed_at)
-           VALUES($1,$2,$3,$4,'completed',$5,$6,$7,now())`,
-          [
-            id,
-            r.userId,
-            toCurrency,
-            r.amount,
-            reason || null,
-            context || null,
-            bal
-          ]
-        );
-
-        rows.push({
-          userId: r.userId,
-          amount: r.amount,
-          balanceAfter: bal,
-          txnId: id
-        });
-      }
-
-      await client.query('COMMIT');
-
-      return {
-        txnId,
-        replay: false,
-        debit: {
-          status: 'completed',
-          balanceAfter: debitBalance
-        },
-        credits: rows
-      };
-    } catch (e) {
-      await client.query('ROLLBACK').catch(() => {});
-      throw e;
-    } finally {
-      client.release();
-    }
+      await client.query('COMMIT');return {txnId,replay:false,debit:{status:'completed',balanceAfter:debitBalance},credits:rows};
+    } catch(e){await client.query('ROLLBACK').catch(()=>{});throw e;} finally{client.release();}
 }
 
 async function getBalance(userId, currency) {

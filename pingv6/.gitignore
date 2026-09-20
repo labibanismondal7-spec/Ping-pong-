@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local Android/Gradle state
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+.gradle/
+
+# Generated / machine-local files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Local backups
+*.bak
+*.backup
+*~
+
+# Local keystores / signing material
+*.jks
+*.keystore
+*.p12
+
+# Runtime-only data that should not be committed
+# (Keep application configuration JSON under data/ tracked.)
+data/ai_logs.jsonl

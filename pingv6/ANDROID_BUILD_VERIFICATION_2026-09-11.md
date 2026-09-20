@@ -1,7 +1,7 @@
 # PingPong Android Build Verification — 2026-09-11
 
 ## Target
-- Production URL: `https://ping-pong-video-live-production.up.railway.app/`
+- Production URL: `https://ping-pong-production-5e76.up.railway.app/`
 - Android application ID: `com.pingpong.voice`
 - Target SDK: 36
 - Minimum SDK: 24

@@ -24,7 +24,7 @@ android {
         versionCode = 5
         versionName = "1.4.0"
 
-        buildConfigField("String", "WEB_APP_URL", "\"${prop("WEB_APP_URL", "https://ping-pong-video-live-production.up.railway.app/").replace("\"", "\\\"")}\"")
+        buildConfigField("String", "WEB_APP_URL", "\"${prop("WEB_APP_URL", "https://ping-pong-production-5e76.up.railway.app/").replace("\"", "\\\"")}\"")
         buildConfigField("boolean", "ALLOW_CLEARTEXT", prop("ALLOW_CLEARTEXT", "false"))
         manifestPlaceholders["allowCleartext"] = prop("ALLOW_CLEARTEXT", "false")
     }
